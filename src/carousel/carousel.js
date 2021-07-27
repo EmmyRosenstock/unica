@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{ useState } from 'react';
 import './style.css';
 import './style.css';
 import nike1 from '../assets/nike-1.png'
@@ -13,17 +13,7 @@ import arrow from '../assets/Icons_SVG/seta-link.svg';
 import DetailsThumb from '../Components/details';
 
 class Carousel extends React.Component{
-  constructor(props) {
-    super(props);
-    this.next = this.next.bind(this);
-    this.previous = this.previous.bind(this);
-  }
-  next() {
-    this.products.slickNext();
-  }
-  previous() {
-    this.products.slickPrev();
-  }
+  
   state = {
     products: [
       {
@@ -54,8 +44,8 @@ class Carousel extends React.Component{
     this.myRef.current.children[index].className = "active";
   }
   
-
   render(){
+   
     const {products, index} = this.state;
     return(
       <div className="app">

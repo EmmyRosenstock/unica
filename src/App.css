@@ -1,5 +1,5 @@
 *{
-    font:Gotham;
+   
     color:#707070;
 }
 .App{
@@ -422,4 +422,16 @@ padding: 14px;
    position:absolute;
    top:120px;
    right:-141px;
+}
+@media (max-width: 500px){
+    .description{
+        position:absolute;
+        top:800px;
+        right:300px;
+    
+    }
+    *{
+        width:100px;
+    }
+    
 }

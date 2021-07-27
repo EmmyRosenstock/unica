@@ -3,7 +3,7 @@ import Star from './stars';
 import './star.css';
 const RatingStars = () => {
     const [gradeIndex, setGradeIndex] = useState();
-    const GRADES = ['1', '2', '3', '4', '5'];
+    const GRADES = ['0','1', '2', '3', '4'];
     const activeStar = {
         fill: 'yellow'
     };
