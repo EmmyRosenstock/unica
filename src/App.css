@@ -1,38 +1,425 @@
-.App {
-  text-align: center;
+*{
+    font:Gotham;
+    color:#707070;
+}
+.App{
+    background-color:#FFFFFF;
+
+}
+.description{
+    position:absolute;
+    right:655px;
+
+}
+.caminho{
+    font-size:14px;
+    opacity: 0.5;
+    
+   
+}
+.caminho h4{
+    position:absolute;
+    top:1px;
+    right:-187px;
+
+}
+.casual{
+    font-size: 16px;
+    color:#171717;
+    opacity:0.5;
+
+}
+.titulo{
+    width: 500px;
+    position: absolute;
+    top:55px;
+}
+.titulo strong{
+text-align: left;
+font-size:  36px ;
+letter-spacing: 0px;
+color: #171717;
+opacity: 1;
+font-family: Gotham;
+font-weight: normal;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.lapis h3{
+    font-size:14px;
+    font-family: Gotham;
+    font-weight: normal;
+    letter-spacing:0px;
+    color:#8b8b8b;
+     opacity: 0.5;
+     position: absolute;
+     right:-30px;
+     top:153px;
+}
+.lapis img{
+    position: absolute;
+    right:5px;
+    top:150px;
+
+}
+.etiqueta h3{
+    font-size:14px;
+    font-family: Gotham;
+    font-weight: normal;
+    letter-spacing:0px;
+    color:#8b8b8b;
+     opacity: 0.5;
+     position: absolute;
+     right:-130px;
+     top:150px;
+
+}
+.etiqueta img{
+    position: absolute;
+    right:-100px;
+    top:150px;
+
+}
+.stars{
+    position: absolute;
+    right:-150px;
+    top:75px;
+}
+.texto{
+    width:100%;
+    height:100%;
+}
+.texto h1{
+    position:absolute;
+    top:200px;
+    width: 567px;
+    height: 99px;
+    text-align: left;
+    font-size:16px;
+    letter-spacing: 0px;
+    color: #888282;
+    opacity: 1;
+    font-weight:normal;
+    
+}
+.tamanho{
+    position:absolute;
+    top:330px;
+    width:300px;
+    height:200px;
+}
+.tamanho h1{
+    font-size: 14px;
+    font-family: Gotham;
+    color:#707070;
+    opacity: 1; 
+    font-weight: normal;
+}
+ .btntama{
+    width: 120px;
+    height:55px;
+    border-radius: 10px;
+    background: #E4E4E4 0% 0% no-repeat padding-box;
+    border: #E4E4E4;
+    color:#8B8B8B !important;
+	text-align: center;
+    font-family: Gotham;
+    font-size:16px;
+    font-weight: normal;
+    
+}
+.btntama:hover{
+   background: #E4E4E4 0% 0%;
+   opacity: 0.8;
+}
+.btntamb{
+    width: 120px;
+    height:55px;
+    border-radius: 10px;
+    background: #E4E4E4 0% 0% no-repeat padding-box;
+    border: #E4E4E4;
+    color:#8B8B8B !important;
+	text-align: center;
+    font-family: Gotham;
+    font-size:16px;
+    font-weight: normal;
+    position:absolute;
+    right:54px;
+    
+}
+.btntamb:hover{
+   background: #E4E4E4 0% 0%;
+   opacity: 0.8;
+}
+.btntamc{
+    width: 120px;
+    height:55px;
+    border-radius: 10px;
+    background: #E4E4E4 0% 0% no-repeat padding-box;
+    border: #E4E4E4;
+    color:#8B8B8B !important;
+	text-align: center;
+    font-family: Gotham;
+    font-size:16px;
+    font-weight: normal;
+    position:absolute;
+    right:-72px;
+    
+}
+.btntamc:hover{
+   background: #E4E4E4 0% 0%;
+   opacity: 0.8;
+}
+.btntamd{
+    width: 120px;
+    height:55px;
+    border-radius: 10px;
+    background: #E4E4E4 0% 0% no-repeat padding-box;
+    border: #E4E4E4;
+    color:#8B8B8B !important;
+	text-align: center;
+    font-family: Gotham;
+    font-size:16px;
+    font-weight: normal;
+    position:absolute;
+    right:-200px;
+    
+}
+.btntamd:hover{
+   background: #E4E4E4 0% 0%;
+   opacity: 0.8;
+}
+.btntame{
+    width: 120px;
+    height:55px;
+    border-radius: 10px;
+    background: #E4E4E4 0% 0% no-repeat padding-box;
+    border: #E4E4E4;
+    color:#8B8B8B !important;
+	text-align: center;
+    font-family: Gotham;
+    font-size:16px;
+    font-weight: normal;
+    position:absolute;
+    top:80px;
+    right:180px;
+    
+}
+.btntame:hover{
+   background: #E4E4E4 0% 0%;
+   opacity: 0.8;
+}
+.btntamf{
+    width: 120px;
+    height:55px;
+    border-radius: 10px;
+    background: #E4E4E4 0% 0% no-repeat padding-box;
+    border: #E4E4E4;
+    color:#8B8B8B !important;
+	text-align: center;
+    font-family: Gotham;
+    font-size:16px;
+    font-weight: normal;
+    position:absolute;
+    top:80px;
+    right:54px;
+    
+}
+.btntamf:hover{
+   background: #E4E4E4 0% 0%;
+   opacity: 0.8;
+}
+.btntamg{
+    width: 120px;
+    height:55px;
+    border-radius: 10px;
+    background: #E4E4E4 0% 0% no-repeat padding-box;
+    border: #E4E4E4;
+    color:#8B8B8B !important;
+	text-align: center;
+    font-family: Gotham;
+    font-size:16px;
+    font-weight: normal;
+    position:absolute;
+    top:80px;
+    right:-72px;
+    
+}
+.btntamg:hover{
+   background: #E4E4E4 0% 0%;
+   opacity: 0.8;
+}
+.btntamh{
+    width: 120px;
+    height:55px;
+    border-radius: 10px;
+    background: #E4E4E4 0% 0% no-repeat padding-box;
+    border: #E4E4E4;
+    color:#8B8B8B !important;
+	text-align: center;
+    font-family: Gotham;
+    font-size:16px;
+    font-weight: normal;
+    position:absolute;
+    right:-200px;
+    top:80px
+    
+}
+.btntamh:hover{
+   background: #E4E4E4 0% 0%;
+   opacity: 0.8;
+}
+.btntami{
+    width: 120px;
+    height:55px;
+    border-radius: 10px;
+    background: #E4E4E4 0% 0% no-repeat padding-box;
+    border: #E4E4E4;
+    color:#8B8B8B !important;
+	text-align: center;
+    font-family: Gotham;
+    font-size:16px;
+    font-weight: normal;
+    position:absolute;
+    right:180px;
+    top:140px
+    
+}
+.btntami:hover{
+   background: #E4E4E4 0% 0%;
+   opacity: 0.8;
+}
+.btncarrinho{
+width: 273px;
+height: 60px;
+background: #026CB6 0% 0% no-repeat padding-box;
+border-radius: 10px;
+opacity: 1;
+position:absolute;
+border: #026CB6;
+right:-240px;
+top:600px;
+color:#FFFFFf !important;
+font-size: 14px;
+align-items: center;
+font-family: Gotham;
+font-weight: book;
+text-align: center;
+padding: 14px;
+}
+.btncarrinho img{
+    position:absolute;
+    top:20px;
+    right: 240px;
+}
+.btncarrinho:hover{
+    background: #0261A4 0% 0% no-repeat padding-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+.listd{
+width: 250px;
+height: 60px;
+background:  #BFDAED 0% 0% no-repeat padding-box;
+border-radius: 10px;
+opacity: 1;
+position:absolute;
+right:-510px;
+top:600px;
+color:#026CB6 !important;
+font-size: 14px;
+align-items: center;
+font-family: Gotham;
+font-weight: book;
+text-align: center;
+border:#026CB6;
+padding: 14px;
 
-.App-link {
-  color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.listd img{
+    position:absolute;
+    top:20px;
+    right: 200px;
+    
+}
+.listd:hover{
+   background-color:#A6CBE5;
+}
+.frete{
+    position:absolute;
+    top:700px;
+    width:100%;
+    height:100px;
+}
+.frete h1{
+    font-size:14px;
+    width: 220px;
+   height: 16px;
+   opacity: 1;
+   font-family: Gotham;
+   font-weight: medium;
+   color:#707070;
+}
+.frete form{
+    width: 505px;
+    height:180px;
+    border:2px solid #F5F5F5;
+    border-radius:10px;
+    opacity: 1;
+}
+.frete form label{
+    width: 465px;
+    height: 39px;
+    text-align: left;
+    font-size:14px;
+    letter-spacing: 0px;
+    font-family: Gotham;
+    font-style: normal;
+    color:#171717;
+    opacity: 0.5;
+}
+.frete form input{
+    width: 400px;
+   height: 50px;
+   border:2px solid #F5F5F5;
+   border-radius:10px;
+   opacity:1;
+   position:absolute;
+   top:60px;
+   right:-400px;
+   font-size: 14px;
+   font-weight:normal;
+   letter-spacing: 0;
+   opacity: 1;
+   font-family: Gotham;
+   color:  #DEDEDE;
+}
+.frete form .calcular{
+    width: 100px;
+   height: 50px;
+   position:absolute;
+   top:60px;
+   right:-400px;
+   border: 2px solid #F5F5F5;
+   border-radius: 10px;
+  opacity: 1;
+  color: #026CB6;
+  font-size:14px;
+  font-family: Gotham;
+  font-weight: medium;
+}
+.frete form .calcular:hover{
+    background-color:#DEDEDE;
+}
+.frete form h3{
+    font-size:12px;
+    font-family: Gotham;
+    font-weight:normal;
+    letter-spacing: 0;
+    color:#026CB6;
+    opacity: 1;
+    width: 139px;
+   height: 16px;
+   position:absolute;
+   top:120px;
+   right:-141px;
 }
